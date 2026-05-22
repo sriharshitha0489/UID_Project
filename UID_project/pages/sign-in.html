@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style/sign-in.css">
+        <link rel="stylesheet" href="../style/index.css">
+        <link rel="shortcut icon" href="https://about.starbucks.com/uploads/2024/10/cropped-favicon-300x300.png" type="image/x-icon">
+        <title>Starbucks Coffee Company</title>
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="logo">
+                <div>
+                    <img class="logo-img" src="../images/logo.webp" alt="logo">
+                </div>
+                <div>
+                    <img class="icon" id="bar" src="../images/bars.svg" alt="">
+                    <img class="icon" id="cross" src="../images/cross.svg" alt="">
+                </div>
+            </div>
+        </header>
+
+        <div class="signin-container">
+    <div class="signin-card">
+        <div class="signin-header">
+            <img src="../images/logo.webp" alt="Starbucks Logo" class="logo">
+            <h1>Sign In</h1>
+            <p>Welcome back! Please sign in to your account</p>
+        </div>
+
+        <form class="signin-form">
+            <div class="input-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <a href="#" class="forgot-link">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="signin-btn">Sign In</button>
+
+            <div class="divider">
+                <span>or</span>
+            </div>
+
+            <button type="button" class="google-btn">
+                <img src="../images/google.svg" alt="Google" class="google-icon">
+                Continue with Google
+            </button>
+
+            <button type="button" class="apple-btn">
+                <img src="../images/apple.svg" alt="Apple" class="apple-icon">
+                Continue with Apple
+            </button>
+        </form>
+
+        <div class="signup-link">
+            <p>Don't have an account? <a href="#">Join now</a></p>
+        </div>
+
+        <div class="terms">
+            <p>By signing in, you agree to our 
+                <a href="#">Terms of Use</a> and 
+                <a href="#">Privacy Notice</a>
+            </p>
+        </div>
+    </div>
+        </div>
+        
+    </body>
+</html>

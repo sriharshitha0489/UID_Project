@@ -1,0 +1,279 @@
+/* ========== CORPORATE & GIFT CARDS SECTION STYLES ========== */
+/* These styles only affect the new sections - no header/footer interference */
+body{
+    background-color: rgb(194, 193, 193);
+}
+
+#gift  li{
+    color: #006e3e;
+    text-decoration:#006e3e underline;
+    text-underline-offset: 20px;
+}
+.corporate-wrapper {
+    max-width: 1280px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 0 1.5rem;
+}
+
+/* ========== SECTION 1: CORPORATE NEEDS ========== */
+.corporate-hero {
+    background: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05), 0 4px 8px rgba(0, 0, 0, 0.02);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.corporate-hero:hover {
+    transform: translateY(-3px);
+}
+
+.corporate-content {
+    padding: 2.5rem 2.2rem 2rem 2.2rem;
+}
+
+.main-headline {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    color: #1e3932;
+    margin-bottom: 1.25rem;
+    border-left: 5px solid #008248;
+    padding-left: 1.2rem;
+}
+
+.description-text {
+    font-size: 1.05rem;
+    color: #2c2e2d;
+    margin-bottom: 2.2rem;
+    line-height: 1.5;
+    max-width: 90%;
+}
+
+.features-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    margin-top: 1rem;
+}
+
+.feature-card {
+    flex: 1;
+    min-width: 220px;
+    background: #fefaf5;
+    border-radius: 1.5rem;
+    padding: 1.6rem 1.4rem;
+    transition: all 0.25s;
+    border: 1px solid #f0e5d8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+}
+
+.feature-card:hover {
+    background: #ffffff;
+    border-color: #d4e2d4;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.card-icon img{
+    width: 320px;
+    height: 300px;
+}
+
+.feature-card h3 {
+    font-size: 1.45rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #1e3932;
+}
+
+.feature-card p {
+    font-size: 0.95rem;
+    color: #3b4a44;
+    line-height: 1.45;
+}
+
+/* ========== SECTION 2: GIFT CARDS ========== */
+.giftcards-section {
+    background: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+.gift-header {
+    text-align: center;
+    padding: 2rem 2rem 0.5rem 2rem;
+}
+
+.gift-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e3932;
+    letter-spacing: -0.3px;
+    position: relative;
+    display: inline-block;
+}
+
+.gift-header h2:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #008248;
+    margin: 0.6rem auto 0;
+    border-radius: 2px;
+}
+
+.dual-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 2rem 2.5rem 2rem;
+}
+
+.gift-type {
+    flex: 1;
+    min-width: 250px;
+    background: #fdf9f4;
+    border-radius: 1.5rem;
+    padding: 1.8rem;
+    transition: all 0.2s;
+    border: 1px solid #efe2d4;
+    text-align: center;
+}
+
+.gift-type:hover {
+    background: #ffffff;
+    border-color: #c8dfc4;
+    transform: translateY(-4px);
+}
+
+.gift-type h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #1e3932;
+}
+
+.gift-desc {
+    font-size: 0.95rem;
+    color: #3a4a43;
+    margin: 1rem 0 1.5rem 0;
+    line-height: 1.45;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    border: 1.5px solid #008248;
+    padding: 0.7rem 1.6rem;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #008248;
+    transition: all 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.3px;
+}
+
+.btn-primary {
+    background: #008248;
+    color: white;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 130, 72, 0.2);
+}
+
+.btn-primary:hover {
+    background: #006e3e;
+    transform: scale(1.02);
+    box-shadow: 0 5px 12px rgba(0, 130, 72, 0.25);
+}
+
+.btn-outline:hover {
+    background: #e9f4ef;
+    border-color: #008248;
+    color: #006e3e;
+}
+
+.contact-link {
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+hr {
+    margin: 0.5rem 0 0.8rem;
+    border: none;
+    border-top: 1px solid #e2d9cf;
+}
+
+.badge-deco {
+    display: inline-block;
+    background: #f1e9df;
+    border-radius: 40px;
+    font-size: 0.75rem;
+    padding: 0.2rem 1rem;
+    margin-bottom: 0.75rem;
+    color: #2b5e4c;
+    font-weight: 500;
+}
+
+.gift-type .badge-deco {
+    background: #e6f0ea;
+}
+
+/* responsiveness */
+@media (max-width: 1024px) {
+    .card-icon img{
+        width: 200px;
+        height: 200px;
+    }
+    .corporate-content {
+        padding: 1.8rem;
+    }
+    .main-headline {
+        font-size: 1.8rem;
+    }
+    .description-text {
+        max-width: 100%;
+    }
+    .features-row {
+        gap: 1.2rem;
+    }
+    .dual-cards {
+        padding: 1.5rem;
+        gap: 1.2rem;
+    }
+    #gift{
+    text-decoration:none;
+    }
+}
+
+@media (max-width: 800px) {
+    .card-icon img{
+        width: 200px;
+        height: 200px;
+    }
+    .feature-card h3 {
+        font-size: 1.25rem;
+    }
+    .gift-type h3 {
+        font-size: 1.4rem;
+    }
+    .btn {
+        padding: 0.5rem 1.2rem;
+    }
+    #gift li{
+    text-decoration:none;
+    }
+}
